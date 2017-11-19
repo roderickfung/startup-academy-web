@@ -1,12 +1,17 @@
-import React, {Component} from 'react';
-import SpeakerPage from './speaker-page';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {HomePage} from './home';
+import {SpeakerPage} from './speaker-page';
 
 export default class App extends Component {
     render () {
-        return(
+        return (
             <div>
-            <p>This is my new react app</p>
-                <SpeakerPage></SpeakerPage>
+                <Header />
+                <Switch>
+                    <Route exact path='/' component={HomePage} />
+                    <Route path='/speakers' component={SpeakerPage} />
+                </Switch>
+                <Footer />
             </div>
         )
     }
