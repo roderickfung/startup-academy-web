@@ -1,7 +1,6 @@
-import React, {Component} from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import {HomePage} from './home';
-import {AboutPage} from './about';
+import {SpeakerPage} from './speaker-page';
 
 export default class App extends Component {
     render () {
@@ -10,6 +9,7 @@ export default class App extends Component {
                 <Header />
                 <Switch>
                     <Route exact path='/' component={HomePage} />
+                    <Route path='/speakers' component={SpeakerPage} />
                 </Switch>
                 <Footer />
             </div>
