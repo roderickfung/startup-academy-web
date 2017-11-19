@@ -1,12 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
-
-// main app
-import App from './containers/App';
+import { BrowserRouter, Route, hashHistory } from 'react-router-dom';
+import App from './containers/app';
 
 ReactDOM.render((
-  <Router>
+  <BrowserRouter history='hashHistory'>
     <App />
-  </Router>
+  </BrowserRouter>
 ), document.getElementById('app'))
