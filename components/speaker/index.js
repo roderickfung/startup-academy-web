@@ -1,28 +1,31 @@
-import {Component} from 'react';
+import React from 'react';
 
-export default class Speaker extends Component {
+import './speaker.css';
+
+export default class Speaker extends React.Component {
 	constructor(props) {
-		super(props)
+		super(props);
 		this.state = {
-			imgFloat: computeImageSide(),
+			imgFloat: this.computeImageSide
 		}
 	}
+
+	computeImageSide = this.props.index % 2 == 0 ? 'floatLeft' : 'floatRight';
+
+	computeParagraphs = this.props.paragraphs.map( (paragraph, index) => {
+		return 	<p key={index} className="speaker-paragraph">{paragraph}</p>
+	})
+
 	render() {
-		const paragraphs = this.props.paragraphs.map( (paragraph) => {
-			<p className="speaker-paragraph">{paragraph}</p>
-		});
-		const imgClasses = `${this.state.imgFloat}, speaker-img`;
 		return(
 			<div className="speaker-container">
-				<img className="this.state.imgFloat" src={this.props.img}></img>
-				<h1 className="speaker-name">{this.props.name}</h1>
-				<h3 className="speaker-subtext">{this.props.info}</h3>
-				{paragraphs}
+				<img className={this.state.imgFloat} src={this.props.img}></img>
+				<div className="info-container">
+					<h1 className="speaker-name">{this.props.name}</h1>
+					<h3 className="speaker-subtext">{this.props.info}</h3>
+					{this.computeParagraphs}
+				</div>
 			</div>
 		)
 	}
-}
-
-const computeImageSide = () => {
-	this.props.index % 2 == 0 ? 'floatLeft' : 'floatRight';
 }
