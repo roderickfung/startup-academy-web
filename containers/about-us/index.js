@@ -1,10 +1,12 @@
 import React from 'react';
 
+import {aboutUsData} from '../../data';
+
 import Content from '../../components/content';
 export default class AboutUsPage extends React.Component {
 
-  computeContent = mockContent.map( (content, index) => {
-    return <Content>
+  computeContent = aboutUsData.map( (content, index) => {
+    return <Content
       key={index}
       header={content.head}
       subHeader={content.subHead}
@@ -12,12 +14,13 @@ export default class AboutUsPage extends React.Component {
       icons={content.icons}
       gallery={content.gal}
       recognitions={content.recog}
+    >
     </Content>
   })
   render() {
     return(
       <div>
-        <Content></Content>
+        {this.computeContent}
       </div>
     )
   }
