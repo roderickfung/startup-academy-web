@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Icon from '/icon';
-import Picture from '/picture';
-import Recognition from '/recognition';
+import Icon from '../icon';
+import Picture from '../picture';
+import Recognition from '../recognition';
 
 export default class Content extends React.Component {
   constructor(props) {
