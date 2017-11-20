@@ -4,11 +4,11 @@ import {speakersData} from '../../data';
 
 import './speaker-page.css';
 import Speaker from '../../components/speaker';
-
+import Divider from '../../components/divider';
 export default class SpeakerPage extends React.Component {
 
 	computeSpeakers = speakersData.map( (speaker, index) => {
-		return <Speaker 
+		return [<Speaker 
 			key={index}
 			img={speaker.img}
 			name={speaker.name}
@@ -16,7 +16,7 @@ export default class SpeakerPage extends React.Component {
 			paragraphs={speaker.paragraphs}
 			index={index}
 		>
-		</Speaker>
+		</Speaker>, <Divider></Divider>]
 	});
 
 	render() {
