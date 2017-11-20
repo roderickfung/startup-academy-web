@@ -8,7 +8,7 @@ export default class Picture extends React.Component {
 
   render() {
     return(
-      <img href={this.props.img}></img>
+      <img src={this.props.img}></img>
     )
   }
 }

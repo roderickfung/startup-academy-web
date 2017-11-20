@@ -8,7 +8,7 @@ export default class Recognition extends React.Component {
   render() {
     return(
       <div className="container">
-        <img href={this.props.img}></img>
+        <img src={this.props.img}></img>
         <p className="name">{this.props.name}</p>
         <p className="desc">{this.props.desc}</p>
       </div>
