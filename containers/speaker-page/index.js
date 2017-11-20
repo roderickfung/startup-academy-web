@@ -21,7 +21,7 @@ export default class SpeakerPage extends React.Component {
 
 	render() {
 		return(
-			<div className="container">
+			<div className="speaker-page-container">
 				{this.computeSpeakers}
 			</div>
 		)

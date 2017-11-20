@@ -2,25 +2,25 @@ import React from 'react';
 
 import {aboutUsData} from '../../data';
 
-import Content from '../../components/content';
+import Section from '../../components/section';
 export default class AboutUsPage extends React.Component {
 
-  computeContent = aboutUsData.map( (content, index) => {
-    return <Content
+  computeSection = aboutUsData.map( (section, index) => {
+    return <Section
       key={index}
-      header={content.head}
-      subHeader={content.subHead}
-      paragraphs={content.p}
-      icons={content.icons}
-      gallery={content.gal}
-      recognitions={content.recog}
+      header={section.header}
+      subheader={section.subheader}
+      paragraphs={section.p}
+      icons={section.icons}
+      gallery={section.gal}
+      recognitions={section.recog}
     >
-    </Content>
+    </Section>
   })
   render() {
     return(
-      <div>
-        {this.computeContent}
+      <div className="about-us-container">
+        {this.computeSection}
       </div>
     )
   }

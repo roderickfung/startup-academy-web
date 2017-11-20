@@ -1,16 +1,20 @@
 import React from 'react';
 
+import './section.css';
 import Icon from '../icon';
 import Picture from '../picture';
 import Recognition from '../recognition';
 
-export default class Content extends React.Component {
+export default class Section extends React.Component {
   constructor(props) {
     super(props);
   }
 
+  computeSubheaders = this.props.subheader.map( (subheader, index) => {
+    return <h3 key={index} className="section-subheader">{subheader}</h3>
+  } )
   computeParagraphs = this.props.paragraphs.map( (paragraph, index) => {
-		return 	<p key={index} className="speaker-paragraph">{paragraph}</p>
+		return 	<p key={index} className="section-paragraphs">{paragraph}</p>
   })
   
   computeIcons = this.props.icons.map( (icon, index) =>{
@@ -28,13 +32,14 @@ export default class Content extends React.Component {
   render() {
     console.log(this.props)
     return(
-      <div className="container">
-        <h1>{this.props.head}</h1>
+      <section className="section-container">
+        <h1>{this.props.header}</h1>
+        {this.computeSubheaders}
         {this.computeParagraphs}
         {this.computeIcons}
         {this.computeGallery}
         {this.computeRecognitions}
-      </div>
+      </section>
     )
   }
 }

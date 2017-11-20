@@ -24,7 +24,7 @@ img {
 }
 .speaker-name {
   font-size: 40px;
-  text-decoration: bold;
+  font-weight: bold;
   font-family: Raleway;
 }
 
@@ -34,10 +34,10 @@ img {
   color: grey
 }
 
-p {
+.speaker-container p {
   font-family: Raleway;
   font-size: 16px;
-  text-align: justify
+  text-align: justify;
 }
 
 @media screen and (max-width: 599px) {

@@ -1,7 +1,10 @@
 const data = [
   {
-    head:'head',
-    subHead:'subHead',
+    // header:"WHAT IS <span className='blue'>STARTUP HACKS</span>?",
+    header: "WHAT IS STARTUP HACKS?",
+    subheader:[
+      'Startup Hacks is an entrepreneurship event like no other.'
+    ],
     p: [
       "Hello there! Come here my little friend. Don't be afraid. Don't worry, he'll be all right. What happened? Rest easy, son, you've had a busy day. You're fortunate you're still in one piece. Ben? Ben Kenobi! Boy, am I glad to see you! The Jundland wastes are not to be traveled lightly. Tell me young Luke, what brings you out this far? Oh, this little droid! I think he's searching for his former master...I've never seen such devotion in a droid before...there seems to be no stopping him. He claims to be the property of an Obi-Wan Kenobi. Is he a relative of yours? Do you know who he's talking about?",
       "Hey...hey, open the pressure maintenance hatch on unit number... where are we? Three-two-six-eight-two-seven. If we can just avoid any more female advice, we ought to be able to get out of here. Well, let's get moving! Where are you going? No, wait. They'll hear! Come here, you big coward! Chewie! Come here! Listen. I don't know who you are, or where you came from, but from now on, you do as I tell you. Okay? Look, Your Worshipfulness, let's get one thing straight! I take orders from one person! Me! It's a wonder you're still alive. Will somebody get this big walking carpet out of my way? No reward is worth this.",
