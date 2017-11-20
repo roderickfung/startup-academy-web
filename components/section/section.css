@@ -20,11 +20,20 @@ h1 {
   letter-spacing: 4px;
 }
 
-.section-container p {
+.section-container > p {
   padding-left: 150px;
   padding-right: 150px;
   font-family: "open sans";
   font-size: 18px;
   text-align: center;
   vertical-align: middle;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }

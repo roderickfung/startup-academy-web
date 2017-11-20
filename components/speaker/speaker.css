@@ -4,7 +4,7 @@
   padding: 50px;
 }
 
-img {
+.speaker-container img {
   height: 600px;
   width: 400px;
   box-shadow: 0px 10px 8px 10px rgb(211, 211, 211);

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './icon.css';
+
 export default class Icon extends React.Component {
   constructor(props) {
     super(props);
@@ -7,9 +9,9 @@ export default class Icon extends React.Component {
   }
   render() {
     return(
-      <div className="container">
+      <div className="icon-container">
         <img src={this.props.img}></img>
-        <p className="info">{this.props.info}</p>
+        <p className="icon-info">{this.props.info}</p>
       </div>
     )
   }
