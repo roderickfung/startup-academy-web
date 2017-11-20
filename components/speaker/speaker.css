@@ -39,6 +39,24 @@ p {
   font-size: 16px;
   text-align: justify
 }
-@media(max-width: 425px) {
 
+@media screen and (max-width: 599px) {
+  .speaker-container {
+    padding: 10px;
+  }
+  img{
+    margin: 0 auto;
+    height:300px;
+    width: 200px;
+  }
+  .floatLeft {
+    flex-direction: column;
+  }
+  .floatRight {
+    flex-direction: column;
+  }
+  .info-container {
+    padding: 10px;
+    width: inherit;
+  }
 }

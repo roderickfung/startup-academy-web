@@ -16,7 +16,7 @@ export default class SpeakerPage extends React.Component {
 			paragraphs={speaker.paragraphs}
 			index={index}
 		>
-		</Speaker>, <Divider></Divider>]
+		</Speaker>, <Divider key={`div-${index}`}></Divider>]
 	});
 
 	render() {
