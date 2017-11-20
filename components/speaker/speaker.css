@@ -1,0 +1,40 @@
+.speaker-container {
+  width:100%;
+  padding: 50px;
+}
+
+img {
+  height: 600px;
+  width: 400px;
+}
+.floatLeft {
+  float: left;
+}
+
+.floatRight {
+  float: right;
+}
+
+.info-container {
+  padding: 50px;
+  width: 1400px;
+
+}
+.speaker-name {
+  font-size: 40px;
+  font-family: garamond;
+}
+
+.speaker-subtext {
+  font-size: 20px;
+  font-family: garamond;
+  color: grey
+}
+
+p {
+  font-size: 14px;
+  color: blue;
+}
+@media(max-width: 425px) {
+
+}
