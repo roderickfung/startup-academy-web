@@ -36,9 +36,9 @@ export default class Section extends React.Component {
         <h1>{this.props.header}</h1>
         {this.computeSubheaders}
         {this.computeParagraphs}
-        <div className="icons-container">{this.computeIcons}</div>
-        {this.computeGallery}
-        {this.computeRecognitions}
+        <div className="content">{this.computeIcons}</div>
+        <div className="content">{this.computeGallery}</div>
+        <div className="content">{this.computeRecognitions}</div>
       </section>
     )
   }

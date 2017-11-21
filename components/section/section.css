@@ -29,7 +29,7 @@ h1 {
   vertical-align: middle;
 }
 
-.icons-container {
+.content {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

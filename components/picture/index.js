@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './picture.css';
+
 export default class Picture extends React.Component {
   constructor(props) {
     super(props);
@@ -8,7 +10,9 @@ export default class Picture extends React.Component {
 
   render() {
     return(
-      <img src={this.props.img}></img>
+      <div className="picture-container">
+        <img src={this.props.img}></img>
+      </div>
     )
   }
 }
