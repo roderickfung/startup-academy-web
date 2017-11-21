@@ -11,11 +11,11 @@ export default class AboutUsPage extends React.Component {
     return [<Section
       key={index}
       header={section.header}
-      subheader={section.subheader}
-      paragraphs={section.p}
-      icons={section.icons}
-      gallery={section.gal}
-      recognitions={section.recog}
+      subheader={section.subheader || []}
+      paragraphs={section.p || []}
+      icons={section.icons || []}
+      gallery={section.gal || []}
+      recognitions={section.recog || []}
     >
     </Section>, <Divider key={`divider-${index}`}></Divider>]
   })

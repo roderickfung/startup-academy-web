@@ -30,14 +30,19 @@ export default class Section extends React.Component {
   })
 
   render() {
+    const subHeaders = this.props.subheader.length > 0 ? this.computeSubheaders : null;
+    const paragraphs = this.props.paragraphs.length > 0 ? this.computeParagraphs : null;
+    const icons = this.props.icons.length > 0 ? <div className="content">{this.computeIcons}</div> : null;
+    const gallery = this.props.gallery.length > 0 ? <div className="content">{this.computeGallery}</div> : null;
+    const recognitions = this.props.recognitions.length > 0 ? <div className="content">{this.computeRecognitions}</div> : null;
     return(
       <section className="section-container">
         <h1>{this.props.header}</h1>
-        {this.computeSubheaders}
-        {this.computeParagraphs}
-        <div className="content">{this.computeIcons}</div>
-        <div className="content">{this.computeGallery}</div>
-        <div className="content">{this.computeRecognitions}</div>
+        {subHeaders}
+        {paragraphs}
+        {icons}
+        {gallery}
+        {recognitions}
       </section>
     )
   }
