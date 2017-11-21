@@ -33,17 +33,17 @@ const data = [
       {
         img:'https://i.pinimg.com/474x/93/0b/d7/930bd7b9ac8ce383852f51f6630317d2--inspirational-leaders-tesla-motors.jpg',
         name:'Elon Musk',
-        desc:'SpaceX, Tesla'
+        description:'SpaceX, Tesla'
       },
       {
         img:'https://s-media-cache-ak0.pinimg.com/originals/28/a2/bb/28a2bb1aa2df7b1e40a2cd2d3ef17621.jpg',
         name:'Mark Zuckerberg',
-        desc:'FaceSmash.com'
+        description:'FaceSmash.com'
       },
       {
         img:'https://pbs.twimg.com/profile_images/2580143981/i17jfs0bvg2dipb4wm6u_400x400.png',
         name:'Jack Ma',
-        desc:'FaceSmash.com'
+        description:'FaceSmash.com'
       },
     ]
   }
