@@ -1,0 +1,27 @@
+.recognition-container {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+}
+
+.recognition-container > img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.recognition-container > p {
+  margin: 0px;
+  text-align: center;
+}
+.recognition-name {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.recognition-desc {
+  font-family: "open sans";
+  font-size: 18px;
+  font-style: italic;
+}

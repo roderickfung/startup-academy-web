@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './recognition.css';
+
 export default class Recognition extends React.Component {
   constructor(props) {
     super(props);
@@ -7,10 +9,10 @@ export default class Recognition extends React.Component {
 
   render() {
     return(
-      <div className="container">
+      <div className="recognition-container">
         <img src={this.props.img}></img>
-        <p className="name">{this.props.name}</p>
-        <p className="desc">{this.props.desc}</p>
+        <p className="recognition-name">{this.props.name}</p>
+        <p className="recognition-desc">{this.props.desc}</p>
       </div>
     )
   }
