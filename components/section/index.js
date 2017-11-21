@@ -30,7 +30,6 @@ export default class Section extends React.Component {
   })
 
   render() {
-    console.log(this.props)
     return(
       <section className="section-container">
         <h1>{this.props.header}</h1>

@@ -1,9 +1,9 @@
 const data = [
   {
     // header:"WHAT IS <span className='blue'>STARTUP HACKS</span>?",
-    header: "WHAT IS STARTUP HACKS?",
+    header: "TEST",
     subheader:[
-      'Startup Hacks is an entrepreneurship event like no other.'
+      'this subheader test subheader test subheader this subheader test subheader test subheader '
     ],
     p: [
       "Hello there! Come here my little friend. Don't be afraid. Don't worry, he'll be all right. What happened? Rest easy, son, you've had a busy day. You're fortunate you're still in one piece. Ben? Ben Kenobi! Boy, am I glad to see you! The Jundland wastes are not to be traveled lightly. Tell me young Luke, what brings you out this far? Oh, this little droid! I think he's searching for his former master...I've never seen such devotion in a droid before...there seems to be no stopping him. He claims to be the property of an Obi-Wan Kenobi. Is he a relative of yours? Do you know who he's talking about?",
@@ -46,7 +46,46 @@ const data = [
         description:'FaceSmash.com'
       },
     ]
-  }
+  },
+  {
+    header:'WHAT IS STARTUP HACKS?',
+    subheader: [
+      'Startup Hacks is an entrepreneurship event like no other.'
+    ],
+    p:[
+      "Over the course of two weekends, you’ll experience the fun, pressure, highs and lows that go with creating a startup business. ",
+      "What you can expect is hands-on training & mentorship from industry professionals to help you prepare your idea for the expo pitch. This competition requires no coding and instead you’ll be using prototyping tools, mockups or anything else you can think of to visually demo your idea to the judges. ",
+      "You'll have the opportunity to meet with the very best mentors, founders, professionals, and sponsors who are ready to help you get started.",
+      "Competitors will work in teams (up to 3) or solo."
+    ],
+    icons:[],
+    gal:[],
+    recog:[]
+  },
+  {
+    header:'WHO ARE WE?',
+    subheader: [],
+    p:[
+      "Our organization Startup Academy aims to empower entrepreneurship globally by putting together startup related initiatives that engage the community.",
+      "We decided to host 'Startup Hacks 2017' because we thought it's an interesting way to get youth to be more engaged with the idea of social entrepreneurship by giving them resources and hands-on challenges to complete."
+    ],
+    icons:[
+      {
+        img: 'https://hairandbarbersmarket.ie/wp-content/uploads/2017/01/graduate-icon-7835-400x400.png',
+        info: 'Educate.'
+      },
+      {
+        img: 'http://wildernessusa.com/wp-content/uploads/2016/03/lightbulb_icon-400x400.png',
+        info: 'Idate.'
+      },
+      {
+        img: 'http://cdn2.hubspot.net/hub/211732/file-887614047-png/images/icon-collaborate-720x480.png',
+        info: 'Collaborate.'
+      }
+    ],
+    gal:[],
+    recog:[]
+  },
 ]
 
 export default data;
