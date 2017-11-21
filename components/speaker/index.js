@@ -10,7 +10,7 @@ export default class Speaker extends React.Component {
 		}
 	}
 
-	computeImageSide = this.props.index % 2 == 0 ? 'speaker-container floatLeft' : 'speaker-container floatRight';
+	computeImageSide = this.props.index % 2 ? 'speaker-container floatRight' : 'speaker-container floatLeft';
 
 	computeParagraphs = this.props.paragraphs.map( (paragraph, index) => {
 		return 	<p key={index} className="speaker-paragraph">{paragraph}</p>
