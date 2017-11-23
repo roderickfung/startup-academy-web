@@ -1,0 +1,19 @@
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 200px;
+}
+
+.icon-container img {
+  height: inherit;
+  width: inherit;
+}
+
+.icon-info {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  font-family:  "open sans";
+  letter-spacing: 3px;
+}
