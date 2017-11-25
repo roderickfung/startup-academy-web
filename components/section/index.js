@@ -4,6 +4,7 @@ import './section.css';
 import Icon from '../icon';
 import Picture from '../picture';
 import Recognition from '../recognition';
+import Divider from '../divider';
 
 export default class Section extends React.Component {
   constructor(props) {
@@ -38,6 +39,7 @@ export default class Section extends React.Component {
     return(
       <section className="section-container">
         <h1>{this.props.header}</h1>
+        <Divider></Divider>
         {subHeaders}
         {paragraphs}
         {icons}
