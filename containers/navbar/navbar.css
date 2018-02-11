@@ -1,0 +1,15 @@
+#navbar-container {
+  display: flex;
+  flex-direction: row;
+  width: inherit;
+  height: 100px;
+  background-color: rgb(1, 47, 66);
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.logo {
+  width: 200px;
+  height: inherit;
+  flex-grow: 1;
+}

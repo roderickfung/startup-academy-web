@@ -4,15 +4,19 @@ import {Switch, Route} from 'react-router-dom';
 import Home from './home';
 import SpeakerPage from './speaker-page';
 import AboutUs from './about-us';
+import Navbar from './navbar';
 
 class App extends React.Component {
   render () {
     return (
-      <Switch>
-        <Route exact path='/' component={Home} />
-        <Route path='/speakers' component={SpeakerPage} />
-        <Route path='/about-us' component={AboutUs} />
-      </Switch>
+      <div>
+        <Navbar></Navbar>
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route path='/speakers' component={SpeakerPage} />
+          <Route path='/about_us' component={AboutUs} />
+        </Switch>
+      </div>
     );
   }
 }

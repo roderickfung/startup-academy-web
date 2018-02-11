@@ -1,0 +1,23 @@
+.nav-button {
+  height: 100px;
+  min-width: 100px;
+  background-color: transparent;
+  font-family: Raleway;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 100px;
+  flex-grow: 1;
+}
+
+.nav-button:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.nav-button-title {
+  border-bottom: 1px solid #c03;
+  width: 100%;
+}
