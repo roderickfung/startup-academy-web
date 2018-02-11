@@ -5,9 +5,11 @@ import {speakersData} from '../../data';
 import './speaker-page.css';
 import Speaker from '../../components/speaker';
 import Divider from '../../components/divider';
+import Header from '../../components/header';
+
 export default class SpeakerPage extends React.Component {
 
-	computeSpeakers = speakersData.map( (speaker, index) => {
+	computeSpeakers = speakersData.speakers.map( (speaker, index) => {
 		return [<Speaker 
 			key={index}
 			img={speaker.img}
@@ -22,6 +24,7 @@ export default class SpeakerPage extends React.Component {
 	render() {
 		return(
 			<div className="speaker-page-container">
+				<Header backgroundImage={speakersData.header.backgroundImage} title={speakersData.header.title} details={speakersData.header.details}></Header>
 				{this.computeSpeakers}
 			</div>
 		)
