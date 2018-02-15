@@ -17,7 +17,7 @@ export default class Navbar extends React.Component{
   render() {
     return(
       <div id="navbar-container">
-        <div class="logo">LOGO</div>
+        <div className="logo">LOGO</div>
         {this.computeNavButtons}
       </div>
     )
