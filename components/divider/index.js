@@ -15,7 +15,6 @@ export default class Divider extends React.Component {
     }
   }
   render() {
-    console.log(this.state);
     const style = this.state.style;
     return(
       <hr className="custom-divider" style={style}></hr>

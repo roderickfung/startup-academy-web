@@ -1,7 +1,5 @@
 hr.custom-divider{
   padding: 2px;
-  /* should inherit width */
-  /* width: 15%; */
   background-color: rgb(117, 223, 255);
   border: none;
   border-radius: 10px;
