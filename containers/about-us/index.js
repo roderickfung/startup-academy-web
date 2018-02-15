@@ -6,6 +6,7 @@ import './about-us.css';
 import Section from '../../components/section';
 import Divider from '../../components/divider';
 import Header from '../../components/header';
+import Footer from '../../components/footer';
 
 export default class AboutUsPage extends React.Component {
 
@@ -35,6 +36,7 @@ export default class AboutUsPage extends React.Component {
           <button className="scroll-top-button" onClick={this.handleBackToTopClick}>&#9651;</button>
           <p>top</p>
         </div>
+        <Footer></Footer>
       </div>
     )
   }

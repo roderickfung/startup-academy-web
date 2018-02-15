@@ -38,8 +38,9 @@ export default class Section extends React.Component {
     const recognitions = this.props.recognitions.length > 0 ? <div className="content">{this.computeRecognitions}</div> : null;
     return(
       <section className="section-container">
+        {/* h1 tag is removed and replaced with header component. transfer all css over. */}
         <h1>{this.props.header}</h1>
-        <Divider></Divider>
+        <Divider width="50%"></Divider>
         {subHeaders}
         {paragraphs}
         {icons}
