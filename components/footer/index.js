@@ -3,7 +3,7 @@ import React from 'react';
 import './footer.less';
 import Logo from '../logo';
 import Divider from '../divider';
-
+import EmailSubscriptionForm from '../email-subscription-form';
 
 export default class Footer extends React.Component {
 	constructor(props) {
@@ -31,17 +31,9 @@ export default class Footer extends React.Component {
 					<a href="#"><i className="fab fa-linkedin"></i></a>
 				</div>
 				<div id="email-subscribe-component" className="footer-component">
-					<h4 className="subscribe-header">Never Miss a Beat!</h4>
-					<p>some lorem ipsum stuff here</p>
-					<form>
-						<input type="text" name="firstname" placeholder="First Name"></input>
-						<input type="text" name="lastname" placeholder="Last Name"></input>
-						<br></br>
-						<input type="text" name="email" placeholder="Email"></input>
-						<input type="submit"></input>
-					</form>
+					<EmailSubscriptionForm></EmailSubscriptionForm>
 				</div>
 			</div>
 		)
 	}
-}
+};''
