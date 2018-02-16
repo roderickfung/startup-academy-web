@@ -5,6 +5,7 @@ import Home from './home';
 import SpeakerPage from './speaker-page';
 import AboutUs from './about-us';
 import Navbar from './navbar';
+import Agenda from './agenda';
 
 class App extends React.Component {
   render () {
@@ -14,6 +15,7 @@ class App extends React.Component {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route path='/speakers' component={SpeakerPage} />
+          <Route path='/agenda' component={Agenda} />
           <Route path='/about_us' component={AboutUs} />
         </Switch>
       </div>
