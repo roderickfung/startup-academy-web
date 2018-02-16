@@ -40,7 +40,7 @@ export default class Section extends React.Component {
       <section className="section-container">
         {/* h1 tag is removed and replaced with header component. transfer all css over. */}
         <h1>{this.props.header}</h1>
-        <Divider width="50%"></Divider>
+        <Divider width="15%"></Divider>
         {subHeaders}
         {paragraphs}
         {icons}

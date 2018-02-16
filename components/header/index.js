@@ -12,7 +12,7 @@ export default class Header extends React.Component {
     return(
       <div id="header-container" style={{backgroundImage:`url(${this.props.backgroundImage})`}}>
         <h1>{this.props.title}</h1>
-        <Divider width="50%"></Divider>
+        <Divider width="10%" color="white"></Divider>
         <h3 className="header-details">{this.props.details}</h3>
       </div>
     )
