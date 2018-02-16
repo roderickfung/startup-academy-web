@@ -11,7 +11,7 @@ export default class Navbar extends React.Component{
   }
 
   computeNavButtons = navigationData.map( (link, index) => {
-    return <NavButton key={index} title={link.title} route={link.route}></NavButton>
+    return <NavButton key={index} title={link.title} route={link.route} redirectUrl={link.redirectUrl}></NavButton>
   })
 
   render() {

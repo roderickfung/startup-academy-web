@@ -17,7 +17,8 @@ const data = [
   },
   {
     title:'REGISTER NOW',
-    route:'/register_now'
+    route: null,
+    redirectUrl: 'https://www.eventbrite.com/e/startup-hacks-2018-entrepreneurship-competition-tickets-41177750761'
   }
 ];
 
