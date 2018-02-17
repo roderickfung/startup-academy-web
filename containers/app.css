@@ -1,0 +1,11 @@
+.fixedin {
+  position: fixed;
+  -vendor-animation-duration: 2s;
+  -vendor-animation-delay: 4s;
+}
+
+.fixedout {
+  position: fixed;
+  -vendor-animation-duration: 3s;
+  /* -vendor-animation-delay: 2s; */
+}
