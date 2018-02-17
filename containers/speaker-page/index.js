@@ -11,7 +11,10 @@ import Footer from '../../components/footer';
 export default class SpeakerPage extends React.Component {
 
 	computeSpeakers = speakersData.speakers.map( (speaker, index) => {
-		// need to remove divider for last speaker. if index === speakersData.speakers.length -1 
+		let divider;
+		if (index != speakersData.speakers.length -1) {
+			divider = <Divider width="20%" key={`div-${index}`}></Divider>
+		}
 		return [<Speaker 
 			key={index}
 			img={speaker.img}
@@ -20,7 +23,7 @@ export default class SpeakerPage extends React.Component {
 			paragraphs={speaker.paragraphs}
 			index={index}
 		>
-		</Speaker>, <Divider width="20%" key={`div-${index}`}></Divider>]
+		</Speaker>, divider]
 	});
 
 	render() {

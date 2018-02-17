@@ -7,7 +7,8 @@ const data = {
   sections: [
     {
       // header:"WHAT IS <span className='blue'>STARTUP HACKS</span>?",
-      header: "TEST",
+      header: 'WHAT IS STARTUP HACKS?',
+      blueWords: ['STARTUP', 'HACKS'],
       subheader:[
         'this subheader test subheader test subheader this subheader test subheader test subheader '
       ],
@@ -55,6 +56,7 @@ const data = {
     },
     {
       header:'WHAT IS STARTUP HACKS?',
+      blueWords: ['STARTUP', 'HACKS'],
       subheader: [
         'Startup Hacks is an entrepreneurship event like no other.'
       ],
@@ -67,6 +69,7 @@ const data = {
     },
     {
       header:'WHO ARE WE?',
+      blueWords: ['ARE', 'WE'],
       p:[
         "Our organization Startup Academy aims to empower entrepreneurship globally by putting together startup related initiatives that engage the community.",
         "We decided to host 'Startup Hacks 2017' because we thought it's an interesting way to get youth to be more engaged with the idea of social entrepreneurship by giving them resources and hands-on challenges to complete."
@@ -88,6 +91,7 @@ const data = {
     },
     {
       header: 'SEE OUR PAST EVENTS.',
+      blueWords: ['PAST', 'EVENTS'],
       gal: [
         "http://placehold.it/640x480",
         "http://www.52dazhew.com/data/out/2/585336423-1600x1200-spring-wallpaper.jpg",
@@ -105,6 +109,7 @@ const data = {
     },
     {
       header: 'SPEACIAL THANKS.',
+      blueWords: ['THANKS'],
       subheader: [
         "We couldn't have done it without you!"
       ],
@@ -155,6 +160,10 @@ const data = {
           description: 'ruined my childhood'
         }
       ]
+    },
+    {
+      header: 'MOST OF ALL, THANK YOU.',
+      blueWords: ['YOU']
     }
   ]
 }
