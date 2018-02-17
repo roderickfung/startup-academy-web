@@ -28,7 +28,6 @@ export default class NavButton extends React.Component {
         </Link>
       )
     } else {
-      console.log(this.props)
       return (
         <a className="nav-button" rel="external" target="_self" href={this.props.redirectUrl} onMouseEnter={this.setHoverTrue} onMouseLeave={this.setHoverFalse}>
           <span className="nav-button-title">{this.props.title}</span>
