@@ -1,6 +1,7 @@
 import React from 'react';
+import Highlighter from 'react-highlight-words';
 
-import './section.css';
+import './section.less';
 import Icon from '../icon';
 import Picture from '../picture';
 import Recognition from '../recognition';
@@ -9,6 +10,9 @@ import Divider from '../divider';
 export default class Section extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {
+      header: props.header || ''
+    }
   }
 
   computeSubheaders = this.props.subheader.map( (subheader, index) => {
@@ -36,10 +40,18 @@ export default class Section extends React.Component {
     const icons = this.props.icons.length > 0 ? <div className="content">{this.computeIcons}</div> : null;
     const gallery = this.props.gallery.length > 0 ? <div className="content">{this.computeGallery}</div> : null;
     const recognitions = this.props.recognitions.length > 0 ? <div className="content">{this.computeRecognitions}</div> : null;
+    console.log(this.state.header);
     return(
       <section className="section-container">
-        {/* h1 tag is removed and replaced with header component. transfer all css over. */}
-        <h1>{this.props.header}</h1>
+        {/* Highlighter is for Heading */}
+        <Highlighter
+          highlightClassName="section-header-highlighted"
+          searchWords={this.props.blueWords}
+          textToHighlight={this.state.header || ''}
+          unhighlightClassName="section-header"
+          highlightTag="span"
+        >
+        </Highlighter>
         <Divider width="15%"></Divider>
         {subHeaders}
         {paragraphs}

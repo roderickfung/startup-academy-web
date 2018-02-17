@@ -18,6 +18,7 @@ export default class AboutUsPage extends React.Component {
       icons={section.icons || []}
       gallery={section.gal || []}
       recognitions={section.recog || []}
+      blueWords={section.blueWords || []}
     >
     </Section>
   })
