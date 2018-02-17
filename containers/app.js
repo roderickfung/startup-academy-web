@@ -18,7 +18,7 @@ class App extends React.Component {
             <div>
               <Navbar></Navbar>
               <TransitionGroup>
-                <CSSTransition key={location.key} mountOnEnter={true} unmountOnExit={true} classNames={{appear: 'invisible', enter: 'animated bounceInUp', exit: 'animated bounceOutDown', onExited:'transitioned'}} timeout={{enter:700, exit:500}}>
+                <CSSTransition key={location.key} classNames={{enter: 'animated bounceInUp fixedin', exit: 'animated bounceOutDown fixedout'}} timeout={{enter:8000, exit:3000}}>
                 <Switch location={location}>
                   <Route exact path='/' component={Home} />
                   <Route path='/home' component={Home} />
