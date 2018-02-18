@@ -15,10 +15,10 @@ class App extends React.Component {
     return (
         <Route
           render={({ location }) => (
-            <div>
+            <div className="">
               <Navbar></Navbar>
               <TransitionGroup>
-                <CSSTransition key={location.key} classNames={{enter: 'animated bounceInUp fixedin', exit: 'animated bounceOutDown fixedout'}} timeout={{enter:8000, exit:3000}}>
+                <CSSTransition key={location.key} classNames={{enter: 'animated bounceInUp fixedin', exit: 'animated bounceOutDown fixedout'}} timeout={{enter:800, exit:500}}>
                 <Switch location={location}>
                   <Route exact path='/' component={Home} />
                   <Route path='/home' component={Home} />
