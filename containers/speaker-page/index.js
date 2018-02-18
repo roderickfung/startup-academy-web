@@ -22,6 +22,7 @@ export default class SpeakerPage extends React.Component {
 			info={speaker.info}
 			paragraphs={speaker.paragraphs}
 			index={index}
+			social={speaker.social}
 		>
 		</Speaker>, divider]
 	});
