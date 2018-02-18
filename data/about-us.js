@@ -1,6 +1,6 @@
 const data = {
   header: {
-    backgroundImage: 'http://www.reuun.com/data/out/82/403167088-meeting-wallpapers.jpg',
+    backgroundImage: 'http://via.placeholder.com/1980x1020',
     title: 'YOUR SPEAKERS',
     details: '2018 Speakers: Founders, Social Entrepreneurs, Culture Builders, Technology Innovators and more'
   },
