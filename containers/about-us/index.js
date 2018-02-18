@@ -6,6 +6,7 @@ import './about-us.css';
 import Section from '../../components/section';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
+import ScrollButton from '../../components/scroll-button';
 
 export default class AboutUsPage extends React.Component {
 
@@ -23,10 +24,6 @@ export default class AboutUsPage extends React.Component {
     </Section>
   })
 
-  handleBackToTopClick = function () {
-    window.scrollTo(0,0);
-  }
-
   render() {
     return(
       <div className="about-us-container">
@@ -37,8 +34,7 @@ export default class AboutUsPage extends React.Component {
         </Header>
         {this.computeSection}
         <div className="scroll-to-top-container">
-          <button className="scroll-top-button" onClick={this.handleBackToTopClick}>&#9651;</button>
-          <p>top</p>
+          <ScrollButton scrollStepInPx="75" delayInMs="13.66"></ScrollButton>
         </div>
         <Footer></Footer>
       </div>
