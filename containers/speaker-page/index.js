@@ -5,9 +5,16 @@ import {speakersData} from '../../data';
 import './speaker-page.css';
 import Speaker from '../../components/speaker';
 import Divider from '../../components/divider';
+import Header from '../../components/header';
+import Footer from '../../components/footer';
+
 export default class SpeakerPage extends React.Component {
 
-	computeSpeakers = speakersData.map( (speaker, index) => {
+	computeSpeakers = speakersData.speakers.map( (speaker, index) => {
+		let divider;
+		if (index != speakersData.speakers.length -1) {
+			divider = <Divider width="20%" key={`div-${index}`}></Divider>
+		}
 		return [<Speaker 
 			key={index}
 			img={speaker.img}
@@ -15,14 +22,17 @@ export default class SpeakerPage extends React.Component {
 			info={speaker.info}
 			paragraphs={speaker.paragraphs}
 			index={index}
+			social={speaker.social}
 		>
-		</Speaker>, <Divider key={`div-${index}`}></Divider>]
+		</Speaker>, divider]
 	});
 
 	render() {
 		return(
 			<div className="speaker-page-container">
+				<Header backgroundImage={speakersData.header.backgroundImage} title={speakersData.header.title} details={speakersData.header.details}></Header>
 				{this.computeSpeakers}
+				<Footer></Footer>
 			</div>
 		)
 	}

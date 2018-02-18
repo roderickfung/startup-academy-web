@@ -1,6 +1,7 @@
-hr {
-  padding: 3px;
-  width: 15%;
+hr.custom-divider{
+  padding: 2px;
   background-color: rgb(117, 223, 255);
   border: none;
+  border-radius: 10px;
+  height: 1px;
 }
