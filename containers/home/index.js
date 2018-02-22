@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 import './home.css';
 
@@ -24,7 +25,7 @@ export default class Home extends React.Component {
             </div>
             <div class="register-detail-container">
               <div class="register-detail-box-secondary"> Feb xx - Feb xx</div>
-              <a href="#" class="register-details-button button">Register Now
+              <a href="https://www.eventbrite.com/e/startup-hacks-2018-entrepreneurship-competition-tickets-41177750761" class="register-details-button button">Register Now
                 <i class="fa fa-arrow-right fa-1x" aria-hidden="true"></i>
               </a>
             </div>
@@ -50,7 +51,7 @@ export default class Home extends React.Component {
               </div>
             </center>
             <center>
-              <button class="learn-more-button" type="button" href="#">Learn more</button>
+              <Link to="/about_us">Read More</Link>
             </center>
             <div class='image-section'>
               <img class="image-main" src="https://cdn-images-1.medium.com/fit/t/2400/1008/0*70lrk-G6peSVjhxq.jpeg" />
@@ -125,9 +126,11 @@ export default class Home extends React.Component {
                 <div class="all-speakers-plus-number">+12</div>
                 <div class="all-speakers-plus-text">Talented Industry Speakers</div>
               </div>
-              <div class="all-speakers-button">All speakers
-                <i class="fa fa-arrow-right fa-1x" aria-hidden="true"></i>
-              </div>
+              <Link to="/speakers">
+                <div class="all-speakers-button">All speakers
+                  <i class="fa fa-arrow-right fa-1x" aria-hidden="true"></i>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -274,9 +277,11 @@ export default class Home extends React.Component {
           Days Left
           <div class="reserve-time-counter">20</div>
         </div>
-        <div class="all-speakers-button">Get Tickets
-          <i class="fa fa-arrow-right fa-1x" aria-hidden="true"></i>
-        </div>
+        <a href="https://www.eventbrite.com/e/startup-hacks-2018-entrepreneurship-competition-tickets-41177750761">
+          <div class="all-speakers-button">Get Tickets
+            <i class="fa fa-arrow-right fa-1x" aria-hidden="true"></i>
+          </div>
+        </a>
       </div>
       <a class="reserve-to-top-button" href='#'>
         <i class="fa fa-arrow-up fa-2x" aria-hidden="true"></i>
