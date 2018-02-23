@@ -6,7 +6,6 @@ import './speaker-page.css';
 import Speaker from '../../components/speaker';
 import Divider from '../../components/divider';
 import Header from '../../components/header';
-import Footer from '../../components/footer';
 
 export default class SpeakerPage extends React.Component {
 
@@ -32,7 +31,6 @@ export default class SpeakerPage extends React.Component {
 			<div className="speaker-page-container">
 				<Header backgroundImage={speakersData.header.backgroundImage} title={speakersData.header.title} details={speakersData.header.details}></Header>
 				{this.computeSpeakers}
-				<Footer></Footer>
 			</div>
 		)
 	}

@@ -5,7 +5,6 @@ import {aboutUsData} from '../../data';
 import './about-us.css';
 import Section from '../../components/section';
 import Header from '../../components/header';
-import Footer from '../../components/footer';
 import ScrollButton from '../../components/scroll-button';
 
 export default class AboutUsPage extends React.Component {
@@ -36,7 +35,6 @@ export default class AboutUsPage extends React.Component {
         <div className="scroll-to-top-container">
           <ScrollButton scrollStepInPx="75" delayInMs="13.66"></ScrollButton>
         </div>
-        <Footer></Footer>
       </div>
     )
   }

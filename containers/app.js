@@ -9,6 +9,7 @@ import SpeakerPage from './speaker-page';
 import AboutUs from './about-us';
 import Navbar from './navbar';
 import Agenda from './agenda';
+import Footer from '../components/footer';
 
 class App extends React.Component {
   render () {
@@ -28,6 +29,7 @@ class App extends React.Component {
                 </Switch>
                 </CSSTransition>
               </TransitionGroup>
+              <Footer></Footer>
             </div>
            )}
         />

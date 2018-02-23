@@ -4,7 +4,6 @@ import './agenda.less';
 import {agendaData} from '../../data';
 
 import Header from '../../components/header';
-import Footer from '../../components/footer';
 import Timeline from '../../components/timeline';
 
 export default class Agenda extends React.Component {
@@ -32,7 +31,6 @@ export default class Agenda extends React.Component {
 				<section id="timelines-container">
 					{Timelines}
 				</section>
-				<Footer></Footer>
 			</div>
 		)
 	}
