@@ -11,12 +11,17 @@ export default class Home extends React.Component {
           <div className="container">
             <div className="title-container">
               <div className="side-dash-container">
+                {/* .side-dash-light ignored in mobile view */}
                 <hr className="side-dash-light"></hr>
               </div>
               <div>
+                {/* #big-logo ignored ignored in web view */}
+                <div id="big-logo">Logo</div>
                 <h1 className="title-text-header-main">Startup hacks</h1>
                 <h1 className="title-text-header-light">conference 2018</h1>
                 <h3 className="title-text-sub">Vancouver, British Columbia</h3>
+                {/* .side-dash-light .mobile ignored in web view*/}
+                <hr className="side-dash-light mobile"></hr>
                 <div className="title-text-desciption-light">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation.
@@ -29,6 +34,11 @@ export default class Home extends React.Component {
                 <i className="fa fa-arrow-right fa-1x" aria-hidden="true"></i>
               </a>
             </div>
+          </div>
+          <div className="social-icon-container">
+            <a href="#"><i className="fab fa-twitter-square"></i></a>
+            <a href="#"><i className="fab fa-twitter-square"></i></a>
+            <a href="#"><i className="fab fa-twitter-square"></i></a>
           </div>
         </section>
         <section id="page-two">
