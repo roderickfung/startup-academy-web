@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './footer.less';
+import './footer-media@425.less';
 import Logo from '../logo';
 import Divider from '../divider';
 import EmailSubscriptionForm from '../email-subscription-form';

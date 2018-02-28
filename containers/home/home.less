@@ -9,7 +9,11 @@ body {
     margin: 0;
 }
 
+// @media screen and (min-width: 768px) {}
 .home-page-container {
+		#big-logo {
+			display: none;
+		}
     section {
         min-height: 100vh;
         display: flex;
@@ -48,7 +52,10 @@ body {
         background-color: #fff;
         margin: 2em;
     }
-    
+		
+		.side-dash-light.mobile {
+			display: none;
+		}
     .title-text-desciption-light {
         color: #fff;
         font-size:22px;
@@ -87,7 +94,7 @@ body {
         color: #00ceff;
         margin:0;
     }
-    
+	
     .register-detail-container {
         background-color: #fff;
         align-items: center;
@@ -104,7 +111,12 @@ body {
         background-color: #00ceff;
         color: #fff;
     }
-    
+		
+		// ignore social icons in web view
+		.social-icon-container {
+			display: none;
+		}
+
     .hr-dash-light {
         background-color: #fff;
         height: 4px;
