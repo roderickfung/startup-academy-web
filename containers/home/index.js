@@ -71,12 +71,6 @@ export default class Home extends React.Component {
           </div>
         </section>
         <section id="page-three">
-          <div id="speaker-modal" title="Speaker Info">
-            <p className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-              sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
           <div className="container-speaker">
             <div className="background-text-speakers">
               The speakers
@@ -94,29 +88,35 @@ export default class Home extends React.Component {
                   <div className="speakers-image-container">
                     <img src='https://img.purch.com/o/aHR0cDovL3d3dy5uZXdzYXJhbWEuY29tL2ltYWdlcy9pLzAwMC8xNzEvMzI0L2kwMi9GbGFzaHBvaW50X1ZvbF8yXzEuanBn'/>
                   </div>
-                  <div>Name</div>
-                  <div>Description</div>
-                  <hr></hr>
+                  <div className="speaker-info">
+                    <p>Name</p>
+                    <p>Description</p>
+                  </div>
+                  <hr class="invisible-mobile"></hr>
                 </div>
-                <div className="speaker-item-container" data-value="secondSpeaker">
+                <div className="speaker-item-container flipped" data-value="secondSpeaker">
                   <div className="speakers-image-container">
                     <img src='http://www.dccomics.com/sites/default/files/files/character-pops/batman_char-pop_58910497bad9c5.66936402.png'/>
                   </div>
-                  <div>Name</div>
-                  <div>Description</div>
-                  <hr></hr>
+                  <div className="speaker-info">
+                    <p>Name</p>
+                    <p>Description</p>
+                  </div>
+                  <hr class="invisible-mobile"></hr>
                 </div>
                 <div className="speaker-item-container" data-value="thirdSpeaker">
                   <div className="speakers-image-container">
                     <img src='https://vignette.wikia.nocookie.net/superman/images/1/11/Rebirth_superman_design.jpg/revision/latest?cb=20161009021408'/>
                   </div>
-                  <div>Name</div>
-                  <div>Description</div>
-                  <hr></hr>
+                  <div className="speaker-info">
+                    <p>Name</p>
+                    <p>Description</p>
+                  </div>
+                  <hr class="invisible-mobile"></hr>
                 </div>
               </div>
               <div className="speakers-section">
-                <div className="speaker-item-container" data-value="fourthSpeaker">
+                <div className="speaker-item-container flipped" data-value="fourthSpeaker">
                   <div className="speakers-image-container">
                     <img src="https://images.moviepilot.com/image/upload/c_fill,h_470,q_auto:good,w_620/xerm2pks59eqsq1kgwih.jpg"/>
                   </div>

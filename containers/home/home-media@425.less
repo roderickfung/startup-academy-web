@@ -16,4 +16,45 @@
 			}
 		}
 	}
+
+	#page-three {
+		.container-speaker {
+			margin: 0;
+		}
+
+		.container-speakers {
+			margin: 0;
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+		.title-text-header-main {
+			font-size: 30px;
+			color: skyblue;
+		}
+
+		.title-text-header-dark {
+			font-size: 30px;
+			color: black;
+		}
+
+		.speaker-item-container {
+			display: flex;
+			flex-direction: row;
+			.speakers-image-container {
+				width: 175px;
+				height: 175px;
+			}
+			.speaker-info {
+				p {
+					margin: 0;
+				}
+			}
+		}
+		.speaker-item-container.flipped {
+			flex-direction: row-reverse;
+		}
+		.invisible-mobile {
+			display: none;
+		}
+	}
 }
