@@ -575,4 +575,42 @@ body {
     .ui-dialog-content {
         padding: 1em;
     }
+
+  #agenda-page {
+		margin: 80px;
+		hr {
+			background-color: grey;
+			height: 4px;
+		}
+		hr.invisible-web {
+			display: none;
+		}
+		#agenda-header-container {
+			h1 {
+				font-family: 'Open Sans';
+				font-weight: bold;
+				font-size: 60px;
+				letter-spacing: 2px;
+				margin: 0;
+			}
+		}
+		#agenda-nav-button-container {
+			display: flex;
+			flex-direction: row;
+			margin-bottom: 0;
+			margin-top: 0;
+			justify-content: space-between;
+		}
+		#agenda-nav-button-container.invisible-web {
+			display: none;
+		}
+		#agenda-content-container {
+			font-family: 'Open Sans';
+			font-weight: bold;
+			font-size: 18px;
+			p {
+				width: 75%;
+			}
+		}
+	}
 }
