@@ -2,6 +2,8 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 import './home.less';
+import './home-media@768.less';
+import './home-media@425.less';
 
 export default class Home extends React.Component {
   render() {
@@ -61,7 +63,7 @@ export default class Home extends React.Component {
               </div>
             </center>
             <center>
-              <Link to="/about_us">Read More</Link>
+              <Link to="/about_us" id="learn-more-btn">LEARN MORE</Link>
             </center>
             <div className='image-section'>
               <img className="image-main" src="https://cdn-images-1.medium.com/fit/t/2400/1008/0*70lrk-G6peSVjhxq.jpeg" />
