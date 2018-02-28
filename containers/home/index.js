@@ -244,13 +244,20 @@ export default class Home extends React.Component {
         </section>
         <section id="agenda-page">
           <div id="agenda-header-container">
-            <h1>SEE THE CONFERENCE AGENDA</h1>
+            <h1>SEE THE CONFERENCE</h1>
+            <h1>AGENDA</h1>
           </div>
-          <hr className="hr-dash-main"></hr>
+          <hr className="hr-dash-main invisible-web"></hr>
+          <div id="agenda-nav-button-container" className="invisible-mobile">
+            <hr className="hr-dash-main invisible-mobile"></hr>
+            <Link to="/agenda">
+              <div className="all-speakers-button">SEE AGENDA</div>
+            </Link>
+          </div>
           <div id="agenda-content-container">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia d eserunt mollit anim id est laborum.</p>
           </div>
-          <div id="agenda-nav-button-container">
+          <div id="agenda-nav-button-container" className="invisible-web">
             <Link to="/agenda">
               <div className="all-speakers-button">SEE AGENDA</div>
             </Link>
