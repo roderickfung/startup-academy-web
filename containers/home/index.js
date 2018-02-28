@@ -92,7 +92,7 @@ export default class Home extends React.Component {
                     <p>Name</p>
                     <p>Description</p>
                   </div>
-                  <hr class="invisible-mobile"></hr>
+                  <hr className="invisible-mobile"></hr>
                 </div>
                 <div className="speaker-item-container flipped" data-value="secondSpeaker">
                   <div className="speakers-image-container">
@@ -102,7 +102,7 @@ export default class Home extends React.Component {
                     <p>Name</p>
                     <p>Description</p>
                   </div>
-                  <hr class="invisible-mobile"></hr>
+                  <hr className="invisible-mobile"></hr>
                 </div>
                 <div className="speaker-item-container" data-value="thirdSpeaker">
                   <div className="speakers-image-container">
@@ -112,7 +112,7 @@ export default class Home extends React.Component {
                     <p>Name</p>
                     <p>Description</p>
                   </div>
-                  <hr class="invisible-mobile"></hr>
+                  <hr className="invisible-mobile"></hr>
                 </div>
               </div>
               <div className="speakers-section">
@@ -122,7 +122,7 @@ export default class Home extends React.Component {
                   </div>
                   <div>Name</div>
                   <div>Description</div>
-                  <hr class="invisible-mobile"></hr>
+                  <hr className="invisible-mobile"></hr>
                 </div>
                 <div className="speaker-item-container" data-value="fifthSpeaker">
                   <div className="speakers-image-container">
@@ -130,7 +130,7 @@ export default class Home extends React.Component {
                   </div>
                   <div>Name</div>
                   <div>Description</div>
-                  <hr class="invisible-mobile"></hr>
+                  <hr className="invisible-mobile"></hr>
                 </div>
                 <div className="all-speakers-container">
                   <div className="all-speakers-section">
@@ -172,7 +172,7 @@ export default class Home extends React.Component {
         </section>
         <section id="page-four">
           <div className="container-venue">
-            <div className="background-text-speakers">
+            <div className="background-text-speakers invisible-mobile">
               Venue
             </div>
             <div className="venue-image-container">
@@ -224,22 +224,36 @@ export default class Home extends React.Component {
             </center>
             <div className="stats-section">
               <div className="stats-container">
-                <div className="stats-number" data-value="3"></div>
+                <div className="stats-number" data-value="3">3</div>
                 <div className="stats-text">3 Amazing keynote Speakers</div>
               </div>
               <div className="stats-container">
-                <div className="stats-number" data-value="12"></div>
+                <div className="stats-number" data-value="12">12</div>
                 <div className="stats-text">12 essential workshops for startups</div>
               </div>
               <div className="stats-container">
-                <div className="stats-number" data-value="70"></div>
+                <div className="stats-number" data-value="70">70</div>
                 <div className="stats-text">Over 70 business professionals participating</div>
               </div>
               <div className="stats-container">
-                <div className="stats-number" data-value="1000"></div>
+                <div className="stats-number" data-value="1000">1K</div>
                 <div className="stats-text">Over $1000 worth of prizes to be won</div>
               </div>
             </div>
+          </div>
+        </section>
+        <section id="agenda-page">
+          <div id="agenda-header-container">
+            <h1>SEE THE CONFERENCE AGENDA</h1>
+          </div>
+          <hr className="hr-dash-main"></hr>
+          <div id="agenda-content-container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia d eserunt mollit anim id est laborum.</p>
+          </div>
+          <div id="agenda-nav-button-container">
+            <Link to="/agenda">
+              <div className="all-speakers-button">All speakers</div>
+            </Link>
           </div>
         </section>
         <section id="page-six">
