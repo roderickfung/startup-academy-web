@@ -122,7 +122,7 @@ export default class Home extends React.Component {
                   </div>
                   <div>Name</div>
                   <div>Description</div>
-                  <hr></hr>
+                  <hr class="invisible-mobile"></hr>
                 </div>
                 <div className="speaker-item-container" data-value="fifthSpeaker">
                   <div className="speakers-image-container">
@@ -130,7 +130,7 @@ export default class Home extends React.Component {
                   </div>
                   <div>Name</div>
                   <div>Description</div>
-                  <hr></hr>
+                  <hr class="invisible-mobile"></hr>
                 </div>
                 <div className="all-speakers-container">
                   <div className="all-speakers-section">
