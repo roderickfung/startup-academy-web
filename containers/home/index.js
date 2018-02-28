@@ -252,7 +252,7 @@ export default class Home extends React.Component {
           </div>
           <div id="agenda-nav-button-container">
             <Link to="/agenda">
-              <div className="all-speakers-button">All speakers</div>
+              <div className="all-speakers-button">SEE AGENDA</div>
             </Link>
           </div>
         </section>
