@@ -51,52 +51,6 @@ const data = {
       ]
     },
     {
-      header:'SPECIAL THANKS.',
-      blueWords: ['THANKS'],
-      subheader: [
-        "We couldn't have done it without you!"
-      ],
-      recog: [
-        {
-          img:'https://i.pinimg.com/474x/93/0b/d7/930bd7b9ac8ce383852f51f6630317d2--inspirational-leaders-tesla-motors.jpg',
-          name:'Elon Musk',
-          description:'SpaceX, Tesla'
-        },
-        {
-          img:'https://s-media-cache-ak0.pinimg.com/originals/28/a2/bb/28a2bb1aa2df7b1e40a2cd2d3ef17621.jpg',
-          name:'Mark Zuckerberg',
-          description:'FaceSmash.com'
-        },
-        {
-          img:'https://pbs.twimg.com/profile_images/2580143981/i17jfs0bvg2dipb4wm6u_400x400.png',
-          name:'Jack Ma',
-          description:'FaceSmash.com'
-        },
-      ]
-    },
-    {
-      header:'WHO ARE WE?',
-      blueWords: ['ARE', 'WE'],
-      p:[
-        "Our organization Startup Academy aims to empower entrepreneurship globally by putting together startup related initiatives that engage the community.",
-        "We decided to host 'Startup Hacks 2017' because we thought it's an interesting way to get youth to be more engaged with the idea of social entrepreneurship by giving them resources and hands-on challenges to complete."
-      ],
-      icons:[
-        {
-          img: 'https://hairandbarbersmarket.ie/wp-content/uploads/2017/01/graduate-icon-7835-400x400.png',
-          info: 'Educate.'
-        },
-        {
-          img: 'http://wildernessusa.com/wp-content/uploads/2016/03/lightbulb_icon-400x400.png',
-          info: 'Idate.'
-        },
-        {
-          img: 'http://cdn2.hubspot.net/hub/211732/file-887614047-png/images/icon-collaborate-720x480.png',
-          info: 'Collaborate.'
-        }
-      ]
-    },
-    {
       header: 'SEE OUR PAST EVENTS.',
       blueWords: ['PAST', 'EVENTS'],
       gal: [

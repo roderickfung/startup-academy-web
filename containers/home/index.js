@@ -88,9 +88,10 @@ export default class Home extends React.Component {
                   <div className="speakers-image-container">
                     <img src='https://img.purch.com/o/aHR0cDovL3d3dy5uZXdzYXJhbWEuY29tL2ltYWdlcy9pLzAwMC8xNzEvMzI0L2kwMi9GbGFzaHBvaW50X1ZvbF8yXzEuanBn'/>
                   </div>
-                  <div className="speaker-info">
+                  <div className="speaker-info right">
                     <p>Name</p>
                     <p>Description</p>
+                    <hr className="invisible-web right"></hr>
                   </div>
                   <hr className="invisible-mobile"></hr>
                 </div>
@@ -98,9 +99,10 @@ export default class Home extends React.Component {
                   <div className="speakers-image-container">
                     <img src='http://www.dccomics.com/sites/default/files/files/character-pops/batman_char-pop_58910497bad9c5.66936402.png'/>
                   </div>
-                  <div className="speaker-info">
+                  <div className="speaker-info left">
                     <p>Name</p>
                     <p>Description</p>
+                    <hr className="invisible-web left"></hr>
                   </div>
                   <hr className="invisible-mobile"></hr>
                 </div>
@@ -108,9 +110,10 @@ export default class Home extends React.Component {
                   <div className="speakers-image-container">
                     <img src='https://vignette.wikia.nocookie.net/superman/images/1/11/Rebirth_superman_design.jpg/revision/latest?cb=20161009021408'/>
                   </div>
-                  <div className="speaker-info">
+                  <div className="speaker-info right">
                     <p>Name</p>
                     <p>Description</p>
+                    <hr className="invisible-web right"></hr>
                   </div>
                   <hr className="invisible-mobile"></hr>
                 </div>
@@ -120,16 +123,22 @@ export default class Home extends React.Component {
                   <div className="speakers-image-container">
                     <img src="https://images.moviepilot.com/image/upload/c_fill,h_470,q_auto:good,w_620/xerm2pks59eqsq1kgwih.jpg"/>
                   </div>
-                  <div>Name</div>
-                  <div>Description</div>
+                  <div className="speaker-info left">
+                    <p>Name</p>
+                    <p>Description</p>
+                    <hr className="invisible-web left"></hr>
+                  </div>
                   <hr className="invisible-mobile"></hr>
                 </div>
                 <div className="speaker-item-container" data-value="fifthSpeaker">
                   <div className="speakers-image-container">
                     <img src='https://i.kinja-img.com/gawker-media/image/upload/s--qHo9BGTU--/c_scale,f_auto,fl_progressive,q_80,w_800/la0rvg3mwqudzz4rvp3d.jpg'/>
                   </div>
-                  <div>Name</div>
-                  <div>Description</div>
+                  <div className="speaker-info right">
+                    <p>Name</p>
+                    <p>Description</p>
+                    <hr className="invisible-web right"></hr>
+                  </div>
                   <hr className="invisible-mobile"></hr>
                 </div>
                 <div className="all-speakers-container">

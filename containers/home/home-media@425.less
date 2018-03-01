@@ -43,6 +43,7 @@
 		.speaker-item-container {
 			display: flex;
 			flex-direction: row;
+			width: 100%;
 			.speakers-image-container {
 				width: 175px;
 				height: 175px;
@@ -51,6 +52,23 @@
 				p {
 					margin: 0;
 				}
+				hr.right {
+					position: relative;
+					right: -100px;
+					top: -30px;
+				}
+				hr.left {
+					position: relative;
+					left: -100px;
+					top: -30px;
+				}
+			}
+			.right {
+				margin-left: 50px;
+			}
+			.left {
+				text-align: left;
+				margin-right: 50px;
 			}
 		}
 		.speaker-item-container.flipped {
