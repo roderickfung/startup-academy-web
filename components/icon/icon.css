@@ -17,3 +17,15 @@
   font-family:  "open sans";
   letter-spacing: 3px;
 }
+
+@media screen and (max-width: 425px) {
+  .icon-container {
+    height: 50px;
+    width: 50px;
+    align-items: center;
+  }
+  .icon-info {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+}

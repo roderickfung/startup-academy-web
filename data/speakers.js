@@ -32,6 +32,34 @@ const data = {
 				facebook: 'https://www.facebook.com/zuck',
 				instagram: 'https://www.instagram.com/zuck',
 			}
+		},
+		{
+			img:'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Mark_Zuckerberg_em_setembro_de_2014.jpg/220px-Mark_Zuckerberg_em_setembro_de_2014.jpg',
+			name: 'Mark Zuckerberg',
+			info: 'Facebook Founder',
+			paragraphs: [
+				'Mark Elliot Zuckerberg (/ˈzʌkərbɜːrɡ/; born May 14, 1984) is an American computer programmer and Internet entrepreneur. He is a co-founder of Facebook, and currently operates as its chairman and chief executive officer.[4][5] His net worth is estimated to be US $74.2 billion as of November 2017, and in 2016 was ranked by Forbes as the fifth richest person in the world.[3][6]',
+				'Zuckerberg launched Facebook from his Harvard University dormitory room on February 4, 2004. He was assisted by his college roommates and fellow Harvard students Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes.[7] The group then introduced Facebook to other college campuses. Facebook expanded rapidly, reaching one billion users by 2012. Meanwhile, Zuckerberg was involved in various legal disputes brought by others in the group, who claimed a share of the company based upon their involvement during the development phase of Facebook.[8]Zuckerberg launched Facebook from his Harvard University dormitory room on February 4, 2004. He was assisted by his college roommates and fellow Harvard students Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes.[7] The group then introduced Facebook to other college campuses. Facebook expanded rapidly, reaching one billion users by 2012. Meanwhile, Zuckerberg was involved in various legal disputes brought by others in the group, who claimed a share of the company based upon their involvement during the development phase of Facebook.[8]'
+			],
+			social: {
+				twitter: 'https://twitter.com/finkd',
+				facebook: 'https://www.facebook.com/zuck',
+				instagram: 'https://www.instagram.com/zuck',
+			}
+		},
+		{
+			img:'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Mark_Zuckerberg_em_setembro_de_2014.jpg/220px-Mark_Zuckerberg_em_setembro_de_2014.jpg',
+			name: 'Mark Zuckerberg',
+			info: 'Facebook Founder',
+			paragraphs: [
+				'Mark Elliot Zuckerberg (/ˈzʌkərbɜːrɡ/; born May 14, 1984) is an American computer programmer and Internet entrepreneur. He is a co-founder of Facebook, and currently operates as its chairman and chief executive officer.[4][5] His net worth is estimated to be US $74.2 billion as of November 2017, and in 2016 was ranked by Forbes as the fifth richest person in the world.[3][6]',
+				'Zuckerberg launched Facebook from his Harvard University dormitory room on February 4, 2004. He was assisted by his college roommates and fellow Harvard students Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes.[7] The group then introduced Facebook to other college campuses. Facebook expanded rapidly, reaching one billion users by 2012. Meanwhile, Zuckerberg was involved in various legal disputes brought by others in the group, who claimed a share of the company based upon their involvement during the development phase of Facebook.[8]Zuckerberg launched Facebook from his Harvard University dormitory room on February 4, 2004. He was assisted by his college roommates and fellow Harvard students Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes.[7] The group then introduced Facebook to other college campuses. Facebook expanded rapidly, reaching one billion users by 2012. Meanwhile, Zuckerberg was involved in various legal disputes brought by others in the group, who claimed a share of the company based upon their involvement during the development phase of Facebook.[8]'
+			],
+			social: {
+				twitter: 'https://twitter.com/finkd',
+				facebook: 'https://www.facebook.com/zuck',
+				instagram: 'https://www.instagram.com/zuck',
+			}
 		}
 	]
 }

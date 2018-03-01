@@ -2,6 +2,8 @@ import React from 'react';
 import Highlighter from 'react-highlight-words';
 
 import './section.less';
+import './section-media@425.less';
+
 import Icon from '../icon';
 import Picture from '../picture';
 import Recognition from '../recognition';
@@ -37,7 +39,7 @@ export default class Section extends React.Component {
   render() {
     const subHeaders = this.props.subheader.length > 0 ? this.computeSubheaders : null;
     const paragraphs = this.props.paragraphs.length > 0 ? this.computeParagraphs : null;
-    const icons = this.props.icons.length > 0 ? <div className="content">{this.computeIcons}</div> : null;
+    const icons = this.props.icons.length > 0 ? <div className="content icon">{this.computeIcons}</div> : null;
     const gallery = this.props.gallery.length > 0 ? <div className="content">{this.computeGallery}</div> : null;
     const recognitions = this.props.recognitions.length > 0 ? <div className="content">{this.computeRecognitions}</div> : null;
     console.log(this.state.header);
