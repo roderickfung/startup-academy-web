@@ -1,0 +1,231 @@
+// still uses css from home-media@768.less & home.less
+@media screen and (max-width: 425px) {
+	.invisible-mobile {
+		display: none !important;
+	}
+	.home-page-container{
+		.container {
+			margin: 30px;
+		}
+
+		.register-detail-container {
+			font-size: 14px;
+			.register-detail-box-secondary {
+				padding: 15px;
+			}
+			.register-details-button {
+				padding: 15px;
+				text-align: center;
+			}
+		}
+	}
+
+	#page-three {
+		.container-speaker {
+			margin: 0;
+		}
+
+		.container-speakers {
+			margin: 0;
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+		.title-text-header-main {
+			font-size: 30px;
+			color: skyblue;
+		}
+
+		.title-text-header-dark {
+			font-size: 30px;
+			color: black;
+		}
+
+		.speaker-item-container {
+			display: flex;
+			flex-direction: row;
+			width: 100%;
+			.speakers-image-container {
+				width: 175px;
+				height: 175px;
+			}
+			.speaker-info {
+				p {
+					margin: 0;
+				}
+				hr.right {
+					position: relative;
+					right: -100px;
+					top: -30px;
+				}
+				hr.left {
+					position: relative;
+					left: -100px;
+					top: -30px;
+				}
+			}
+			.right {
+				margin-left: 50px;
+			}
+			.left {
+				text-align: left;
+				margin-right: 50px;
+			}
+		}
+		.speaker-item-container.flipped {
+			flex-direction: row-reverse;
+		}
+		.invisible-mobile {
+			display: none;
+		}
+	}
+
+	#page-four {
+		.container-venue {
+			margin: 0;
+			position: static;
+		}
+		.venue-image-container {
+			width: inherit;
+		}
+		.venue-title-text-container {
+			.venue-title-text-small {
+				font-size: 12px;
+				font-family: 'Raleway';
+				font-weight: bold;
+			}
+			.venue-title-text-large {
+				font-size: 24px;
+				font-family: 'Raleway';
+			}
+		}
+		.venue-description-container {
+			flex-direction: column;
+			width: inherit;
+			div {
+				width: inherit;
+				margin-top: 20px;
+				margin-bottom: 20px;
+			}
+			.venue-description {
+				border-left: 3px solid grey;
+				margin-left: 1em;
+				padding-left: 1em;
+			}
+		}
+	}
+
+	#page-five {
+		.container{
+			center {
+				margin-top: 20px;
+				margin-bottom: 20px;
+			}
+		}
+		.title-text-header-dark {
+			font-size: 35px;
+		}
+		.sub-heading-text-dark {
+			font-size: 12px;
+			font-weight: bold;
+		}
+		.stats-section {
+			flex-direction: row;
+			flex-wrap: wrap;
+			.stats-container {
+				display: flex;
+				flex-direction: column;
+				margin-top: 20px;
+				width: 150px;
+				.stats-number {
+					font-size: 60px;
+					font-weight: bold;
+					font-family: 'Open Sans'
+				}
+				.stats-text {
+					text-align: center;
+					font-size: 18px;
+					font-weight: bold;
+					font-family: 'Open Sans'
+				}
+			}
+		}
+	}
+
+	.home-page-container {
+		#agenda-page {
+			margin: 0;
+			align-items: center;
+			div {
+				padding: 30px;
+			}
+			.invisible-web {
+				display: block !important;
+			}
+			#agenda-header-container {
+				h1 {
+					font-size: 35px;
+					font-weight: bold;
+					font-family: 'Raleway';
+					text-align: center;
+				}
+			}
+			hr.hr-dash-main {
+				background-color: black;
+			}
+			#agenda-content-container {
+				p {
+					font-size: 18px;
+					font-family: 'Open Sans';
+					text-align: center;
+					width: inherit;
+				}
+			}
+		}	
+	}
+	// Our sponsors
+	#page-six {
+		center {
+			margin-bottom: 20px;
+			margin-top: 20px;
+		}
+		.title-text-header-dark {
+			font-family: 'Raleway';
+			font-weight: bold;
+			font-size: 35px;
+		}
+		.sub-heading-text-dark {
+			font-family: 'Open Sans';
+			font-size: 14px;
+		}
+	}
+
+	#page-seven {
+		.container {
+			div {
+				margin-top: 20px;
+				margin-bottom: 20px;
+			}
+		}
+		.reserve-title-block-container {
+			.reserve-title-block {
+				width: inherit;
+				left: -80px;
+				padding: 20px;
+				padding-left: 80px;
+				h1 {
+					font-size: 35px;
+					margin: 0;
+				}
+			}
+		}
+		.reserve-text-box-container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			.reserve-time-counter-container {
+				position: relative;
+				left: -75px;
+			}
+		}
+	}
+}

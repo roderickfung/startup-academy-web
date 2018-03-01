@@ -4,3 +4,11 @@
   width: inherit;
   background: linear-gradient(white, rgb(198, 235, 245));
 }
+
+@media screen and (max-width: 425px) {
+  .speakers-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

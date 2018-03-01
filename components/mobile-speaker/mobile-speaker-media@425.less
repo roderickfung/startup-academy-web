@@ -1,0 +1,68 @@
+@media screen and (max-width: 425px) {
+	.mobile-speaker-container {
+		width: 50%;
+		height: 175px;
+	}
+
+	.mobile-speaker-image-container {
+		height: inherit;
+		img {
+			max-height: inherit;
+			height: 100%;
+			width: 100%;
+		}
+	}
+
+	.mobile-speaker-info-overlay {
+		z-index: 1;
+		position: relative;
+		top: -35px;
+		text-align: right;
+		white-space: nowrap;
+		h1 {
+			font-family: 'Raleway';
+			font-weight: bold;
+			font-size: 12px;
+			margin: 0px;
+			background-color: white;
+			margin-left: 35px;
+			padding-top: 5px;
+			margin-right: 20px;
+		}
+		h3 {
+			font-family: 'Open Sans';
+			font-style: italic;
+			font-size: 8px;
+			margin: 0px;
+			background-color: white;
+			margin-left: 35px;
+			padding-bottom: 5px;
+			margin-right: 20px;
+		}
+	}
+	.mobile-speaker-info-overlay:before {
+		content: '';
+		position: absolute;
+		top: 0; left: 0;
+		border-bottom: 35px solid white;
+		border-left: 35px solid transparent;
+		width: 0;
+	}
+	.mobile-speaker-social-icons {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		width: 20px;
+		float: right;
+		top: -61px;
+		background-color: white;
+		a {
+			text-align: center;
+			border: 1px solid darkgrey;
+		}
+		a:nth-child(2) {
+			border-top: none;
+			border-bottom: none;
+		}
+	}
+}
